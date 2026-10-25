@@ -1363,3 +1363,36 @@ body {overscroll-behavior-y:auto;}
  .panel {max-width:calc(100vw - 24px) !important;}
  .sales-catalog *, .payment-section *, .sheet * {max-width:100%;}
 }
+
+/* EMJ Turismo | Edição Laranja Pérola 2026 — preserva template e funcionalidades */
+:root{--canvas:#fff9f3;--sunk:#ffe2c7;--pastel:#ffb36b;--pastel-deep:#f58b34;--ink:#422413;--ink-2:#72503c;--ink-3:#a37658;--accent:#ed751d}
+html{scroll-padding-top:100px}
+body{background:linear-gradient(125deg,#fffefa 0%,#fff5e9 24%,#ffdfbd 53%,#fff9f3 77%,#ffead8 100%) !important;color:#422413}
+body::before{background:radial-gradient(ellipse at 12% 12%,rgba(255,157,55,.27),transparent 49%),radial-gradient(ellipse at 90% 65%,rgba(255,255,255,.9),transparent 53%),radial-gradient(ellipse at 48% 100%,rgba(255,183,103,.23),transparent 55%) !important;animation:none!important}
+body::after{opacity:.1;pointer-events:none}
+.bar{background:rgba(255,250,245,.93)!important;border-bottom:1px solid rgba(236,123,32,.25)!important;backdrop-filter:blur(18px);box-shadow:0 8px 28px rgba(142,65,9,.09)}
+.bar a,.nav a{color:#633513!important}
+.brand-logo{mix-blend-mode:normal!important;filter:drop-shadow(0 0 5px #fff) drop-shadow(0 0 12px rgba(255,112,0,.85)) drop-shadow(0 0 24px rgba(255,128,0,.45))!important;transition:transform .25s ease}
+.brand-logo:hover{transform:scale(1.045)}
+.mascot-side-video.mascot-video-crop{border:3px solid #ff8b22!important;background:#321909!important;box-shadow:0 0 0 3px rgba(255,255,255,.88),0 0 17px rgba(255,111,0,.9),0 0 38px rgba(255,126,0,.55),0 14px 35px rgba(115,48,0,.22)!important;animation:orangeEmjPulse 3s ease-in-out infinite alternate!important}
+@keyframes orangeEmjPulse{from{box-shadow:0 0 0 3px #fff,0 0 14px #ff8b22,0 0 28px #ff8b2266}to{box-shadow:0 0 0 3px #fff,0 0 23px #ff7510,0 0 49px #ff751088}}
+.mascot-side-clean{background:transparent!important}
+.sales-catalog,.payment-section,.footer-contact{background:linear-gradient(140deg,rgba(255,253,249,.97),rgba(255,235,214,.94))!important;border:1px solid rgba(238,139,50,.36)!important;box-shadow:0 14px 42px rgba(154,80,17,.13)!important;border-radius:22px!important}
+.sales-catalog h2,.payment-section h2,.footer-contact h2,.fare-card h3,.pix-box h3{color:#71350e!important}
+.sales-catalog p,.payment-section p,.footer-contact p,.fare-card p,.pix-box p{color:#74513b!important}
+.sheet-tag,.fare-kicker{color:#bc5a12!important}
+.fare-card,.pix-box{background:rgba(255,255,255,.83)!important;border:1px solid #f5c59b!important;box-shadow:0 6px 20px #b56b2a12!important}
+.accepted-payments span{background:#fff2e4!important;color:#8b410d!important;border-color:#f3c299!important}
+.booking-form{background:linear-gradient(150deg,#fffdf9,#ffead5)!important;border:1px solid #efb57d!important;box-shadow:0 10px 26px #9c541c15!important}
+.booking-form label,.booking-form legend{color:#67360f!important}
+.booking-form input:not([type=radio]),.booking-form select{background:#fff!important;color:#402511!important;border:1px solid #dfac82!important}
+.booking-form fieldset{border-color:#e5b58b!important}
+.booking-form small{color:#795a44!important}
+.booking-form button,.footer-whatsapp{background:linear-gradient(135deg,#ffad4d,#ed7415)!important;color:#fff!important;box-shadow:0 8px 18px #e9752452!important}
+.footer-whatsapp{font-size:.78rem!important;padding:10px 13px!important;max-width:100%;white-space:normal;line-height:1.3;text-align:center}
+.pix-box img{object-fit:contain;max-width:100%}
+.emj-whatsapp-mini{position:fixed;right:15px;bottom:18px;z-index:48;display:flex;align-items:center;justify-content:center;width:43px;height:43px;border-radius:50%;background:#198c51;color:white;text-decoration:none;border:2px solid white;box-shadow:0 5px 16px #245d3b55;transition:transform .2s ease}
+.emj-whatsapp-mini:hover{transform:scale(1.07)}
+.emj-whatsapp-mini svg{width:23px;height:23px;fill:currentColor}
+@media(max-width:700px){.emj-whatsapp-mini{width:37px;height:37px;right:9px;bottom:9px;opacity:.9}.emj-whatsapp-mini svg{width:20px;height:20px}.footer-whatsapp{font-size:.75rem!important;padding:9px 11px!important}.brand-logo{max-width:150px}}
+@media(prefers-reduced-motion:reduce){.mascot-side-video.mascot-video-crop{animation:none!important}}
